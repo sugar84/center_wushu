@@ -8,7 +8,8 @@ get '/' => sub {
   $self->render({
       title         => 'Welcome to Mojolicius on fluxflex',
       display_time  => sprintf("%02d:%02d:%02d",$hour,$min,$sec),
-      });
+	  explain       => "this is testing app in Mojo",
+  });
 } => 'index';
 
 #hello
@@ -40,6 +41,7 @@ __DATA__
     <h1><%= $title %></h1>
     <h3>Time:<%= $display_time %></h3>
     <p>A next generation web framework for the Perl programming language.</p>
-    <%= link_to hello => begin %>Dispatcher Test Link<% end %>
+    <%= link_to hello => begin %>Dispatcher Test Link<% end %>a
+	<p><%= $explain %></p>
   </body>
 </html>
