@@ -19,7 +19,8 @@ html, body {
 
 
 #title {
-	background: url('/img/title1_980_250.png') no-repeat scroll 0 0 transparent;   
+	background: url('/img/title1_980_250.png') no-repeat scroll 0 0 transparent;
+	min-height: 250px; 
 }
 
 /*-------------------- Menu --------------------------*/
