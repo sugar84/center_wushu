@@ -12,7 +12,7 @@ html, body {
 
 #roof {
 	margin-top: 5px;
-	background: url('/img/panoram1_950_250.png') no-repeat scroll 0 0 transparent;    
+	background: url('/img/title_980_250.png') no-repeat scroll 0 0 transparent;    
 	min-height: 250px;
 	border-radius: 7px 7px 7px 7px;
 }
@@ -58,7 +58,7 @@ html, body {
 
 #visible {
     margin: 0 auto;
-    width: 950px;
+    width: 980px;
 }
 
 
