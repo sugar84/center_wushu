@@ -22,7 +22,8 @@
 <div id="comprehensive">
 
     <div id="roof">
-        <img alt="" src="/img/title1_980_250.png">
+        <!--<img alt="" src="/img/title1_980_250.png">-->
+        <div id="title"></div>
     </div>
 
     <div id="menu-bar">
