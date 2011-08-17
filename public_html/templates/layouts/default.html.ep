@@ -5,15 +5,17 @@
 	<title>Восточные методики</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link media="screen, projection" type="text/css" href="css/main.css" rel="stylesheet">
-	<script src="/js/jquery.js" type="text/javascript" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" />
 </head>
 
 <body>
 <script>console.info("haha")</script>
 <script type="text/javascript">
+	/*
 	setInterval(function () {
 		console.info($('img').attr('src', '/img/title2_950_250.png'));
 	}, 2000)
+	*/
 </script>
 
 <div id="visible">
