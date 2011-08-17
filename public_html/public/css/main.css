@@ -12,7 +12,7 @@ html, body {
 
 #roof {
 	margin-top: 5px;
-	background: url('/img/title_950_250.png') no-repeat scroll 0 0 top; 
+	background: url('/img/title_950_250.png') no-repeat scroll 0 0 transparent; 
 	min-height: 250px;
 	border-radius: 7px 7px 7px 7px;
 }
