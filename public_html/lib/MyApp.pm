@@ -13,7 +13,7 @@ get '/' => sub {
 } => 'index';
 
 #hello
-get '/hello' => { text => 'Hello World! It\'s superior!' };
+get '/hello' => { text => 'Hello World!' };
 
 app->start;
 
