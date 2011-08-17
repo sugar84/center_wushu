@@ -1,0 +1,19 @@
+% layout 'default';
+% title 'List conf';
+
+<script type="text/javascript">
+	console.info( $('#roof').html() );
+</script>
+
+<h2><%= $message %></h2>
+<p>
+	one = <%= $conf->{one} %>
+	two = <%= $conf->{two} %>
+</p>
+
+
+
+<a href="<%== url_for %>">click here</a>
+to reload the page or
+<a href="/index.html">here</a>
+to move forward to a static page.

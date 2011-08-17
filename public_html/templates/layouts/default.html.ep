@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Восточные методики</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link media="screen, projection" type="text/css" href="css/main.css" rel="stylesheet">
+	<script src="/js/jquery.js" type="text/javascript" />
+</head>
+
+<body>
+<script>console.info("haha")</script>
+<script type="text/javascript">
+	setInterval(function () {
+		console.info($('img').attr('src', '/img/title2_950_250.png'));
+	}, 2000)
+</script>
+
+<div id="visible">
+<div id="comprehensive">
+
+    <div id="roof">
+        <img alt="" src="/img/title_950_250.png">
+    </div>
+
+    <div id="menu-bar">
+		<div id="menu-bar-links">
+			<a href="#">Главная</a>
+			<a href="#">Новости</a>
+			<a href="#">Инструктора</a>
+			<a href="#">Фото</a>
+			<a href="#">Контакты</a>
+		</div>
+    </div>
+
+    <div id="content">
+        <%= content %>
+    </div>
+
+
+</div>
+    <div id="footer">
+        Powered by <a href="http://perl.org">Perl</a>
+        and <a href="http://mojolicio.us">Mojolicious</a>
+    </div>
+</div>
+
+</body>
+</html>

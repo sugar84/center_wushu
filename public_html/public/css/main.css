@@ -1,0 +1,95 @@
+html, body {
+    /*font-family: Lucida, sans-serif;*/
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: #22572d;
+    background-color: #c1b668;
+    background: url('/img/rattan.png') repeat scroll 0 0 transparent;
+}
+
+* { padding:0; margin:0; }
+
+
+
+#roof {
+	margin-top: 5px;
+	background: url('/img/panoram1_950_250.png') no-repeat scroll 0 0 transparent;    
+	min-height: 250px;
+	border-radius: 7px 7px 7px 7px;
+}
+
+#title {
+	background: url('/img/title_950_250.png') no-repeat scroll 0 0 transparent;    
+}
+
+/*-------------------- Menu --------------------------*/
+
+#menu-bar {
+    background: url('/img/menu.png') repeat-x scroll 0 0 transparent;
+    line-height: 38px;
+    height: 38px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    border-radius: 7px 7px 7px 7px;
+    text-align: right;
+    color: #eee;
+}
+
+#menu-bar-links {
+  display:table-cell;
+  float: left;
+  height: 38px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+#menu-bar-links a {
+  color: #ccc;
+  font: 1.2em Georgia, Times, serif;
+  margin-right: 0.7em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #555;
+}
+
+#menu-bar-links a:hover { color: #fff; }
+
+/*------------------- Content ---------------------*/
+
+#visible {
+    margin: 0 auto;
+    width: 950px;
+}
+
+
+#comprehensive {
+
+    min-height: 100%;
+    height: auto !important;
+    width: 100%;
+}
+
+#content {
+    background: #e0dfd6;
+    padding: 20px;
+    border-radius: 7px 7px 7px 7px;
+    /*border: 1px solid #999;*/
+}
+
+.button {
+    
+}
+
+/*------------------ Footer ------------------------*/
+
+#footer {
+	color: #222;
+	margin: 14px 0 7px;
+	font: 0.9em Georgia, Times, serif;
+	padding: 10px;
+	text-align: center;
+}
+
+#footer a {
+	color: #666;
+}
