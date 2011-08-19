@@ -2232,3 +2232,121 @@ Fri Jul  1 22:11:17 2011 debug Mojolicious:25 [7700]: Your secret passphrase nee
 [Sat Aug 13 20:12:08 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
 [Sat Aug 13 20:12:08 2011] [debug] Dispatching "Wushu::Example->list".
 [Sat Aug 13 20:12:08 2011] [debug] 200 OK (0.001243s, 804.505/s).
+[Sat Aug 20 00:01:12 2011] [info] Server listening (http://*:3000)
+[Sat Aug 20 00:01:21 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:01:21 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:01:21 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:01:21 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:01:21 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:01:21 2011] [debug] 200 OK (0.042890s, 23.315/s).
+[Sat Aug 20 00:01:52 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:01:52 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:01:52 2011] [debug] 200 OK (0.001218s, 821.018/s).
+[Sat Aug 20 00:02:13 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:02:13 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:02:13 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:02:13 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:02:13 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:02:13 2011] [debug] 200 OK (0.021609s, 46.277/s).
+[Sat Aug 20 00:04:04 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:04:04 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:04:04 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:04:04 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:04:04 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:04:04 2011] [debug] 200 OK (0.024705s, 40.478/s).
+[Sat Aug 20 00:04:18 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:04:18 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:04:18 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:04:18 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:04:18 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:04:18 2011] [debug] 200 OK (0.021475s, 46.566/s).
+[Sat Aug 20 00:05:36 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:05:36 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:05:36 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:05:36 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:05:36 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:05:36 2011] [debug] 200 OK (0.021047s, 47.513/s).
+[Sat Aug 20 00:05:53 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:05:53 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:05:53 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:05:53 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:05:53 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:05:53 2011] [debug] 200 OK (0.021286s, 46.979/s).
+[Sat Aug 20 00:06:01 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:06:01 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:06:01 2011] [debug] 200 OK (0.001201s, 832.639/s).
+[Sat Aug 20 00:06:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:06:16 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:06:16 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:06:16 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:06:16 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:06:16 2011] [debug] 200 OK (0.023572s, 42.423/s).
+[Sat Aug 20 00:06:28 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:06:28 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:06:28 2011] [debug] 200 OK (0.001201s, 832.639/s).
+[Sat Aug 20 00:18:06 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:18:06 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:18:06 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:18:06 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:18:06 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:18:06 2011] [debug] 200 OK (0.022487s, 44.470/s).
+[Sat Aug 20 00:19:44 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:19:44 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:19:44 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:19:44 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:19:44 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:19:44 2011] [debug] 200 OK (0.021247s, 47.065/s).
+[Sat Aug 20 00:19:48 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:19:48 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:19:48 2011] [debug] 200 OK (0.001233s, 811.030/s).
+[Sat Aug 20 00:21:24 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:21:24 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:21:24 2011] [debug] 200 OK (0.001206s, 829.187/s).
+[Sat Aug 20 00:24:06 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:24:06 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:24:06 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:24:06 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:24:06 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:24:06 2011] [debug] 200 OK (0.021541s, 46.423/s).
+[Sat Aug 20 00:24:24 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:24:24 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:24:24 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:24:24 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:24:24 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:24:24 2011] [debug] 200 OK (0.022135s, 45.177/s).
+[Sat Aug 20 00:25:16 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 00:25:16 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:25:16 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:25:16 2011] [debug] Rendering template "example/list.html.ep".
+[Sat Aug 20 00:25:16 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 00:25:16 2011] [debug] 200 OK (0.021166s, 47.246/s).
+[Sat Aug 20 00:36:56 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:36:56 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:36:56 2011] [debug] 200 OK (0.001267s, 789.266/s).
+[Sat Aug 20 00:37:46 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:37:46 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:37:46 2011] [debug] 200 OK (0.001395s, 716.846/s).
+[Sat Aug 20 00:37:48 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:37:48 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:37:48 2011] [debug] 200 OK (0.001210s, 826.446/s).
+[Sat Aug 20 00:37:50 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:37:50 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:37:50 2011] [debug] 200 OK (0.001207s, 828.500/s).
+[Sat Aug 20 00:38:23 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:38:23 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:38:23 2011] [debug] 200 OK (0.001266s, 789.889/s).
+[Sat Aug 20 00:45:41 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:45:41 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:45:41 2011] [debug] 200 OK (0.001209s, 827.130/s).
+[Sat Aug 20 00:50:54 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:50:54 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:50:54 2011] [debug] 200 OK (0.001257s, 795.545/s).
+[Sat Aug 20 00:53:03 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:53:03 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:53:03 2011] [debug] 200 OK (0.001286s, 777.605/s).
+[Sat Aug 20 00:56:06 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:56:06 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:56:06 2011] [debug] 200 OK (0.001208s, 827.815/s).
+[Sat Aug 20 00:56:09 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 00:56:09 2011] [debug] Dispatching "Wushu::Example->list".
+[Sat Aug 20 00:56:09 2011] [debug] 200 OK (0.001284s, 778.816/s).

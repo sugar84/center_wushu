@@ -11,20 +11,18 @@
 <body>
 <script>console.info("haha")</script>
 <script type="text/javascript">
+	/*
 	setInterval(function () {
-		var nomer     = Math.floor(Math.random()*4 + 1);
-		var first_url = 'url("http://localhost:3000/img/title';
-		var sec_url   = '_980_250.png")';
-		var url = first_url + nomer + sec_url;
-		console.info( $('#roof').css('background-image') );
-		$('#roof').css( 'background-image', url );
+		console.info($('img').attr('src', '/img/title2_950_250.png'));
 	}, 2000)
+	*/
 </script>
 
 <div id="visible">
 <div id="comprehensive">
 
     <div id="roof">
+        <!--<img alt="" src="/img/title1_980_250.png">-->
         <div id="title"></div>
     </div>
 
