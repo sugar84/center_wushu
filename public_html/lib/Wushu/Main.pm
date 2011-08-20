@@ -11,7 +11,8 @@ sub info {
 		ls   => join("", qx(ls -la)),
 		pwd  => join("", qx(pwd)),
 		who  => join("", qx(who)),
-		ls__ => join("", qx(ls ../)),
+		whoa => join("", qx(whoami)),
+		ls__ => join("", qx(ls ../../)),
 	);
 }
 
