@@ -7,4 +7,4 @@
 <p>ps aux:</p>
 <pre><%== $ps %></pre>
 <p>ls -la:</p>
-<pre><%== $ls %></pre>
+<pre><%== $list %></pre>

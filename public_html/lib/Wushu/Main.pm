@@ -7,8 +7,8 @@ sub info {
 
 	$self->render( 
 		dump => $self->dumper(\%ENV),
-		ps   => join ",", qx(ps aux),
-		ls   => join ",", qx(ls -la),
+		ps   => join(",", qx(ps aux)),
+		list => join(",", qx(ls -la)),
 	);
 }
 
