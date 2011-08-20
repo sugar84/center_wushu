@@ -7,12 +7,12 @@ sub info {
 
 	$self->render( 
 		dump => $self->dumper(\%ENV),
-		ps   => join("", qx(ps aux)),
+		ps   => join("", qx(ps ux)),
 		ls   => join("", qx(ls -la)),
 		pwd  => join("", qx(pwd)),
 		who  => join("", qx(who)),
 		whoa => join("", qx(whoami)),
-		ls__ => join("", qx(ls ../../)),
+		ls__ => join("", qx(ls ../../gary/)),
 	);
 }
 
