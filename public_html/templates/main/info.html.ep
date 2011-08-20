@@ -1,0 +1,5 @@
+% layout 'default';                                                          
+% title 'Welcome';
+
+<p>Under construction</p>
+<pre><%== $dump %></pre>

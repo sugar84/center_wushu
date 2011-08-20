@@ -19,7 +19,7 @@ EOF
 
 # Application
 $ENV{MOJO_APP}    ||= 'Wushu';
-$ENV{MORBO_DEBUG}   = 1;
+$ENV{MORBO_DEBUG}  += 1;
 
 # Start commands
 Mojolicious::Commands->start;

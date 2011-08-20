@@ -2350,3 +2350,43 @@ Fri Jul  1 22:11:17 2011 debug Mojolicious:25 [7700]: Your secret passphrase nee
 [Sat Aug 20 00:56:09 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
 [Sat Aug 20 00:56:09 2011] [debug] Dispatching "Wushu::Example->list".
 [Sat Aug 20 00:56:09 2011] [debug] 200 OK (0.001284s, 778.816/s).
+[Sat Aug 20 18:04:23 2011] [info] Server listening (http://*:3000)
+[Sat Aug 20 18:04:25 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 18:04:25 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 18:04:25 2011] [debug] Dispatching "Wushu::Main->info".
+[Sat Aug 20 18:04:25 2011] [debug] Template "main/info.html.ep" not found.
+[Sat Aug 20 18:04:25 2011] [debug] Template "main/info.html.ep" not found.
+[Sat Aug 20 18:04:25 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Aug 20 18:05:21 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 18:05:21 2011] [debug] Dispatching "Wushu::Main->info".
+[Sat Aug 20 18:05:21 2011] [debug] Template "main/info.html.ep" not found.
+[Sat Aug 20 18:05:21 2011] [debug] Template "main/info.html.ep" not found.
+[Sat Aug 20 18:05:21 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Aug 20 18:07:57 2011] [info] Server listening (http://*:3000)
+[Sat Aug 20 18:07:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 18:07:59 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 18:07:59 2011] [debug] Dispatching "Wushu::Main->info".
+[Sat Aug 20 18:07:59 2011] [debug] Rendering template "main/info.html.ep".
+[Sat Aug 20 18:07:59 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 18:07:59 2011] [debug] 200 OK (0.022336s, 44.771/s).
+[Sat Aug 20 18:09:33 2011] [info] Server listening (http://*:3000)
+[Sat Aug 20 18:09:34 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 18:09:34 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 18:09:34 2011] [debug] Dispatching "Wushu::Main->info".
+[Sat Aug 20 18:09:34 2011] [debug] Rendering template "main/info.html.ep".
+[Sat Aug 20 18:09:34 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 18:09:34 2011] [debug] 200 OK (0.023052s, 43.380/s).
+[Sat Aug 20 18:19:05 2011] [info] Server listening (http://*:3000)
+[Sat Aug 20 18:19:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 18:19:08 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 18:19:08 2011] [debug] Dispatching "Wushu::Main->info".
+[Sat Aug 20 18:19:08 2011] [debug] Rendering template "main/info.html.ep".
+[Sat Aug 20 18:19:08 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 18:19:08 2011] [debug] 200 OK (0.022192s, 45.061/s).
+[Sat Aug 20 18:20:26 2011] [info] Server listening (http://*:3000)
+[Sat Aug 20 18:20:28 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 20 18:20:28 2011] [debug] GET / (Mozilla/5.0 (X11; Linux i686; rv:5.0.1) Gecko/20110328 Firefox/5.0.1).
+[Sat Aug 20 18:20:28 2011] [debug] Dispatching "Wushu::Main->info".
+[Sat Aug 20 18:20:28 2011] [debug] Rendering template "main/info.html.ep".
+[Sat Aug 20 18:20:28 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 20 18:20:28 2011] [debug] 200 OK (0.021213s, 47.141/s).
