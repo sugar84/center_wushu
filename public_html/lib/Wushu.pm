@@ -2,20 +2,25 @@ package Wushu;
 use Mojo::URL;
 use Mojo::Base 'Mojolicious';
 
+use List::Util qw/first/;
+
 has conf => sub {do "conf/app.conf"};
 
 # This method will run once at server start
 sub startup {
 	my $self = shift;
 
-	# $self->plugin('pod_renderer');
-	$self->hook( before_dispatch => sub {
-		my $self = shift;
-		# notice: url must be fully-qualified or absolute, ending in '/' matters.
-		$self->req->url->base( Mojo::URL->new(q{http://sugar.fluxflex.com/}) );
-	});
-	$self->app->log->handle(\*STDERR);
-	$self->app->log->warn( $self->dumper(\%ENV) );
+	
+	if (first {/^FCGI/} keys %ENV) {
+		$self->hook( before_dispatch => sub {
+			my $self = shift;
+			$self->req->url->base( Mojo::URL->new(q{http://sugar.fluxflex.com/}) );
+			# XXX try to automate
+		});
+	}
+	else {
+		$self->app->log->handle(\*STDERR); # XXX move it to conf-file
+	}
 
 	# Routes
 	# о центре, направления и стили, инструктора, видео, фото, новости, статьи, ссылки, контакты
