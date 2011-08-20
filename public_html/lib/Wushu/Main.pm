@@ -7,9 +7,11 @@ sub info {
 
 	$self->render( 
 		dump => $self->dumper(\%ENV),
-		ps   => join(",", qx(ps aux)),
-		list => join(",", qx(ls -la)),
-		pwd  => join(",", qx(pwd; who))
+		ps   => join("", qx(ps aux)),
+		ls   => join("", qx(ls -la)),
+		pwd  => join("", qx(pwd))
+		who  => join("", qx(who))
+		ls__ => join("", qx(ls ../))
 	);
 }
 
