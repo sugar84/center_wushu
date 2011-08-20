@@ -11,14 +11,14 @@ sub startup {
 	my $self = shift;
 
 	
-	if (first {/^FCGI/} keys %ENV) {
+	if (first {/^FCGI/} keys %ENV) { # fluxflex
 		$self->hook( before_dispatch => sub {
 			my $self = shift;
 			$self->req->url->base( Mojo::URL->new(q{http://sugar.fluxflex.com/}) );
 			# XXX try to automate
 		});
 	}
-	else {
+	else { # home, dev-mode
 		$self->app->log->handle(\*STDERR); # XXX move it to conf-file
 	}
 

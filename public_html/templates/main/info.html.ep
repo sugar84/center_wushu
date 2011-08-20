@@ -2,17 +2,3 @@
 % title 'Welcome';
 
 <p>Under construction</p>
-<p>dump:</p>
-<pre><%== $dump %></pre>
-<p>ps aux:</p>
-<pre><%== $ps %></pre>
-<p>ls -la:</p>
-<pre><%== $ls %></pre>
-<p>ls ../../:</p>
-<pre><%== $ls__ %></pre>
-<p>pwd</p>
-<pre><%== $pwd %></pre>
-<p>who:</p>
-<pre><%== $who %></pre>
-<p>whoami:</p>
-<pre><%== $whoa %></pre>

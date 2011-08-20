@@ -5,6 +5,12 @@ use Mojo::Base 'Mojolicious::Controller';
 sub info {
 	my $self = shift;
 
+	$self->render();
+}
+
+sub sys_info {
+	my $self = shift;
+	
 	$self->render( 
 		dump => $self->dumper(\%ENV),
 		ps   => join("", qx(ps ux)),
@@ -12,7 +18,7 @@ sub info {
 		pwd  => join("", qx(pwd)),
 		who  => join("", qx(who)),
 		whoa => join("", qx(whoami)),
-		ls__ => join("", qx(ls ../../gary/)),
+		ls__ => join("", qx(ls -la)),
 	);
 }
 
