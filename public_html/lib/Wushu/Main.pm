@@ -9,6 +9,7 @@ sub info {
 		dump => $self->dumper(\%ENV),
 		ps   => join(",", qx(ps aux)),
 		list => join(",", qx(ls -la)),
+		pwd  => join(",", qx(pwd; who))
 	);
 }
 
