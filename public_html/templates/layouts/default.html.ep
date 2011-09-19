@@ -41,7 +41,7 @@
 </div>
     <div id="footer">
         Powered by <a href="http://perl.org">Perl</a>
-        and <a href="http://mojolicio.us">Mojolicious</a>
+        and <a href="http://mojolicio.us">Mojolicious <%= $Mojolicious::VERSION %></a>
     </div>
 </div>
 
